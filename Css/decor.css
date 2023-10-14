@@ -1,0 +1,59 @@
+* {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightskyblue;
+}
+
+/*template das colunas */
+
+.opcoes {
+    grid-template-columns: 1fr;
+   display: grid;
+    list-style: none;
+   padding: 1rem;
+   margin: 0;
+   
+}
+
+/*Estilo botôes*/
+
+button {
+    padding: 2rem;
+    margin: 0;
+  width: 157px;
+  height: 91px;
+  text-align: center;
+  float: left;
+   
+  /* display flex para alinhar */
+
+  display: flex;
+justify-content: center;
+align-items: center;
+    
+}
+
+/*opções da lista*/
+
+.opcoes li {
+    padding: 1rem 2rem;
+    margin: 0;
+    border: 1px;
+    border-style: solid;
+border-radius: 1rem;
+display: flex;
+justify-content: space-between;
+background-color: white;
+
+}
+
+
+.opcoes img {
+    max-width: 100px;
+    height: 70px;
+   display: flex;
+}
+
